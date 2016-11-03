@@ -1,0 +1,33 @@
+/**
+ * partials/sidebar
+ * ---
+ */
+
+ .cta-lateral {
+   position: relative;
+   width: 100%;
+   height: 200px;
+   background-position: 50% 50%;
+ }
+
+ .cta-imagem {
+   position: relative;
+   overflow: hidden;
+ }
+
+ .cta-text {
+   position: absolute;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   margin-bottom: 0px;
+   padding-top: 7px;
+   padding-bottom: 7px;
+   background-color:rgba(#4b266c, 0.86);
+   color: #ededed;
+   font-size: 22px;
+   font-weight: 300;
+   text-transform: uppercase;
+   text-align: center;
+   color: #fff;
+ }

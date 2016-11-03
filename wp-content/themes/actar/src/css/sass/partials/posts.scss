@@ -1,0 +1,87 @@
+/**
+ * partials/posts
+ * ---
+ */
+
+ .titulo-post {
+   position: absolute;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   z-index: 9;
+   width: 100%;
+   margin-bottom: 0px;
+   padding: 15px;
+   background-color: rgba(#4b266c, 0.86);
+   color: #fff;
+   font-size: 27px;
+   font-weight: 300;
+   text-align: center;
+ }
+
+.no-thumb, .wp-post-image {
+	display: block;
+	margin: auto;
+}
+
+ .pagination {
+   display: block;
+   margin-top: 0;
+   text-align: center;
+
+   .page-numbers {
+     display: inline-block;
+     padding: 5px 10px;
+     border-radius: 5px;
+     background-color: #fff;
+     border: 2px solid ;
+
+	 &:hover, &.current {
+		 background-color: $tc;
+		 color: #FFF;
+	 }
+   }
+ }
+
+ .post {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 300px;
+   margin-bottom: 25px;
+
+   img {
+	 position: relative;
+	 padding-top: 0px;
+	 padding-bottom: 0px;
+	 -webkit-transition: all 250ms ease-in;
+	 transition: all 250ms ease-in;
+	 min-width: 100%;
+
+	 &:hover {
+	  	 -webkit-transform: scale(1.1);
+	  	 -ms-transform: scale(1.1);
+	  	 transform: scale(1.1);
+     }
+   }
+ }
+
+.date {
+	display: block;
+	padding: 10px 0;
+	margin-bottom: 40px;
+	font-size: 1.2em;
+	color: $tc;
+	text-align: center;
+}
+
+.foto {
+	.title {
+		font-size: 24px;
+	}
+}
+
+.contemConteudo {
+	width: 60%;
+	margin: 0 auto;
+}

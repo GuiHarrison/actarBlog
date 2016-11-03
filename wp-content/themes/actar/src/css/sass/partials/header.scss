@@ -1,0 +1,75 @@
+/**
+ * partials/header
+ * ---
+ */
+
+
+// Header container
+
+// Logo
+.logo {}
+
+.logo-img {}
+
+.search {
+	margin-top: 20px;
+}
+
+.search {
+	margin-bottom: 20px;
+}
+
+.busca {
+  width: 85%;
+  height: 30px;
+  line-height: 1;
+  margin-bottom: auto;
+  float: left;
+  border-color: transparent;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .15);
+  color: #e0e0e0;
+  padding: 0 15px;
+}
+
+.form-pesquisa {
+   overflow: hidden;
+   width: 100%;
+   margin-top: 10px;
+   // float: right;
+   color: #636363;
+   padding: 5px 0;
+}
+
+.lupa-busca {
+  margin-top: 10px;
+  margin-left: 11px;
+  float: right;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.search-submit {
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-indent: 40px;
+	overflow: hidden;
+	background-image: url(img/lupa.svg);
+	background-color: transparent;
+	float: right;
+}
+
+.search-input {
+	width: 88%;
+	padding: 5px 10px;
+	border: solid 1px ;
+}
+
+.rodape {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid ;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+}

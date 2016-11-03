@@ -1,0 +1,35 @@
+/**
+ * partials/nav
+ * ---
+ * Menus
+ */
+
+ .categoria {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-right: 1px solid ;
+   border-bottom: 2px solid transparent;
+   border-left: 0px none transparent;
+   -webkit-transition: all 250ms ease-out;
+   transition: all 250ms ease-out;
+   color: #333;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   letter-spacing: 0px;
+   text-decoration: none;
+   text-transform: none;
+ }
+
+ .categoria:hover {
+   border-bottom: 2px solid ;
+   color: #4b266c;
+ }
+
+ .categoria.ultimo {
+   border-right-width: 0px;
+ }
+
+ .div-menu {
+   padding-top: 15px;
+ }
