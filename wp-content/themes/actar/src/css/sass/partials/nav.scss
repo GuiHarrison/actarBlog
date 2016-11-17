@@ -12,7 +12,7 @@
    border-left: 0px none transparent;
    -webkit-transition: all 250ms ease-out;
    transition: all 250ms ease-out;
-   color: #333;
+   color: #4b266c;
    font-size: 14px;
    font-style: normal;
    font-weight: 400;
@@ -31,5 +31,9 @@
  }
 
  .div-menu {
-   padding-top: 15px;
+   padding-top: 30px;
  }
+
+.rodape.w-nav {
+   border-bottom: solid 2px #4b266c;
+}

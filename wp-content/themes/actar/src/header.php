@@ -71,10 +71,10 @@
 				  <a href="<?php echo get_home_url(); ?>" class="w-nav-brand"><img width="132" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" class="logo"></a>
 
 				<nav class="div-menu w-nav-menu" role="navigation">
-					<a class="categoria w-nav-link" href="<?php echo get_home_url(); ?>">Lorem Ipsum</a>
-					<a class="categoria w-nav-link" href="<?php echo get_home_url();?>">Dolor site amet</a>
-					<a class="categoria w-nav-link" href="<?php echo get_home_url();?>">Consectetur</a>
-					<a class="categoria ultimo w-nav-link" href="<?php echo get_home_url();?>">Materiais Educativos</a>
+					<a class="categoria w-nav-link" href="<?php echo get_home_url(); ?>/category/seguranca-da-informacao/">Segurança da Informação</a>
+					<a class="categoria w-nav-link" href="<?php echo get_home_url();?>/category/gestao-de-riscos">Gestão de Riscos</a>
+					<a class="categoria w-nav-link" href="<?php echo get_home_url();?>/category/gestao-de-ti">Gestão em TI</a>
+					<a class="categoria ultimo w-nav-link" href="<?php echo get_home_url();?>/category/ebooks">Ebooks</a>
 				</nav>
 
 				<div class="w-nav-button">
