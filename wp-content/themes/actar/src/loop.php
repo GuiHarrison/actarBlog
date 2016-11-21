@@ -7,7 +7,7 @@
 			
 			if ($c === 3 && get_field('ctaL', 'options') ) { ?>
 
-				<a class="post w-inline-block" href="<?php echo get_field('ctaL', 'options'); ?>">
+				<a class="post w-inline-block" target="_blank" href="<?php echo get_field('ctaL', 'options'); ?>">
 					<?php if ( get_field('ctaI', 'options') ) { echo '<img src="'. get_field('ctaI', 'options') .'" alt="'. get_field('ctaT', 'options') .'">'; } else { echo '<img class="no-thumb" src="' . get_template_directory_uri(); echo '/img/no_thumb.jpg">'; } ?>
 				</a>
 
@@ -39,5 +39,4 @@
 			}
 		}
 	}
-
 	?>

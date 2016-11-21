@@ -11,7 +11,13 @@
 	</div>
 
 	<!-- cta -->
-	<a href="#" target="_blank" class="cta-lateral w-inline-block" style="background:url(<?php echo get_template_directory_uri(); ?>/img/sss.jpg); background-size: cover;">
+	<a href="http://materiais.actar.com.br/ebook-cio-seguranca-da-informacao" target="_blank" class="cta-lateral w-inline-block" style="background:url(http://blog.actar.com.br/wp-content/uploads/2016/11/actar_-_cta_ebook-lateral_blog.png); background-size: cover;">
+		<h3 class="cta-text">Baixar agora</h3>
+	</a>
+	<!-- /cta -->
+
+	<!-- cta -->
+	<a href="http://materiais.actar.com.br/ebook-cio-seguranca-da-informacao" target="_blank" class="cta-lateral w-inline-block" style="background:url(http://blog.actar.com.br/wp-content/uploads/2016/11/actar_-_CTAs_LP_Check_Point-lateral_blog.png); background-size: cover;">
 		<h3 class="cta-text">Baixar agora</h3>
 	</a>
 	<!-- /cta -->
