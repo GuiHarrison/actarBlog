@@ -20,7 +20,7 @@
 		  <div class="cont-rodape w-container"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-escura.svg" width="132">
 			  <div class="w-col w-col-4 w-clearfix w-right">
 				<a href="#_" target="_blank" class="w-inline-block w-clearfix twr"><img width="37" src="<?php echo get_template_directory_uri(); ?>/img/rs4.svg" class="twr"></a>
-				<a href="https://www.facebook.com/Actar-Connectivity-195324447175497/?fref=ts" target="_blank" class="w-inline-block lkd"><img width="37" src="<?php echo get_template_directory_uri(); ?>/img/rs1.svg" class="lkd"></a>
+				<a href="https://www.facebook.com/ACTAR-Consulting-635053653342334/?fref=ts" target="_blank" class="w-inline-block lkd"><img width="37" src="<?php echo get_template_directory_uri(); ?>/img/rs1.svg" class="lkd"></a>
 			  </div>
 		  </div>
 		</div>
