@@ -483,3 +483,13 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
 {
     return '<h2>' . $content . '</h2>';
 }
+
+if( function_exists('acf_add_options_page') ) {
+    acf_add_options_page(array(
+        'page_title'    => 'Opções do tema',
+        'menu_title'    => 'Opções do tema',
+        'menu_slug'     => 'opcoes-do-tema',
+        'capability'    => 'edit_posts',
+        'redirect'      => false
+    ));
+}

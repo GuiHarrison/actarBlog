@@ -5,7 +5,7 @@
 <style type="text/css">
 	.st0{fill:#7D7D7D;}
 	.st1{fill:none;stroke:color: #4b266c;;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:color: #4b266c;;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#4b266c; color: #4b266c;}
 	.st3{opacity:0.26;}
 </style>
 <g>
