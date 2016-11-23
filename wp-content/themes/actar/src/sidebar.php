@@ -32,7 +32,7 @@
 	</div>
 
 	<div class="fb-html w-embed">
-	  <div class="fb-page" data-href="https://www.facebook.com/Actar-Connectivity-195324447175497/?fref=ts" data-tabs="timeline" data-width="220" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+	  <div class="fb-page" data-href="https://www.facebook.com/ACTAR-Consulting-635053653342334/?fref=ts" data-tabs="timeline" data-width="220" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
 	</div>
 
 </div>
