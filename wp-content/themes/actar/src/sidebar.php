@@ -11,7 +11,13 @@
 	</div>
 
 	<!-- cta -->
-	<a href="#" target="_blank" class="cta-lateral w-inline-block" style="background:url(<?php echo get_template_directory_uri(); ?>/img/sss.jpg); background-size: cover;">
+	<a href="http://materiais.actar.com.br/ebook-cio-seguranca-da-informacao" target="_blank" class="cta-lateral w-inline-block" style="background:url(http://blog.actar.com.br/wp-content/uploads/2016/11/actar_-_cta_ebook-lateral_blog.png); background-size: cover;">
+		<h3 class="cta-text">Baixar agora</h3>
+	</a>
+	<!-- /cta -->
+
+	<!-- cta -->
+	<a href="http://materiais.actar.com.br/ebook-cio-seguranca-da-informacao" target="_blank" class="cta-lateral w-inline-block" style="background:url(http://blog.actar.com.br/wp-content/uploads/2016/11/actar_-_CTAs_LP_Check_Point-lateral_blog.png); background-size: cover;">
 		<h3 class="cta-text">Baixar agora</h3>
 	</a>
 	<!-- /cta -->
@@ -26,7 +32,7 @@
 	</div>
 
 	<div class="fb-html w-embed">
-	  <div class="fb-page" data-href="https://www.facebook.com/Actar-Connectivity-195324447175497/?fref=ts" data-tabs="timeline" data-width="220" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+	  <div class="fb-page" data-href="https://www.facebook.com/ACTAR-Consulting-635053653342334/?fref=ts" data-tabs="timeline" data-width="220" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
 	</div>
 
 </div>
