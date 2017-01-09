@@ -113,7 +113,7 @@ function html5blank_header_scripts()
                     'conditionizr',
                     'modernizr',
                     'jquery',
-					'webflow'),
+                    'webflow'),
                 '1.0.0');
 
             // Enqueue Scripts
@@ -438,32 +438,32 @@ add_filter( 'the_content', 'prefix_insert_post_ads' );
 
 function prefix_insert_post_ads( $content ) {
 
-	$ad_code = '<a class="cta-interno" href="#">Ver também: ebook loren isum dolor sit</a>';
+    $ad_code = '<a class="cta-interno" href="http://materiais.actar.com.br/ebook-cio-seguranca-da-informacao">Ver também: Guia completo para CIOs</a>';
 
-	if ( is_single() && ! is_admin() ) {
-		return prefix_insert_after_paragraph( $ad_code, 2, $content );
-	}
+    if ( is_single() && ! is_admin() ) {
+        return prefix_insert_after_paragraph( $ad_code, 2, $content );
+    }
 
-	return $content;
+    return $content;
 }
 
 // Parent Function that makes the magic happen
 
 function prefix_insert_after_paragraph( $insertion, $paragraph_id, $content ) {
-	$closing_p = '</p>';
-	$paragraphs = explode( $closing_p, $content );
-	foreach ($paragraphs as $index => $paragraph) {
+    $closing_p = '</p>';
+    $paragraphs = explode( $closing_p, $content );
+    foreach ($paragraphs as $index => $paragraph) {
 
-		if ( trim( $paragraph ) ) {
-			$paragraphs[$index] .= $closing_p;
-		}
+        if ( trim( $paragraph ) ) {
+            $paragraphs[$index] .= $closing_p;
+        }
 
-		if ( $paragraph_id == $index + 1 ) {
-			$paragraphs[$index] .= $insertion;
-		}
-	}
+        if ( $paragraph_id == $index + 1 ) {
+            $paragraphs[$index] .= $insertion;
+        }
+    }
 
-	return implode( '', $paragraphs );
+    return implode( '', $paragraphs );
 }
 
 
