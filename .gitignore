@@ -1,12 +1,18 @@
 wp-admin
 wp-includes
+wp-content/uploads
+.gitignore
+.htaccess
+README.md
+db-update.sql
 index.php
+ingage.sql
 readme.html
 wp-activate.php
 wp-blog-header.php
 wp-comments-post.php
-wp-config.php
 wp-config-sample.php
+wp-config.php
 wp-cron.php
 wp-links-opml.php
 wp-load.php
@@ -16,4 +22,3 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
-.htaccess
